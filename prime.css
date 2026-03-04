@@ -1,0 +1,174 @@
+          /**/
+
+* {
+  box-sizing: border-box;
+}
+
+body{padding:50px;
+  
+}
+
+div.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;space-between;
+}
+
+div.gallery-item {
+  margin: 25px;
+  
+  width: calc(25% - 20px);
+}
+
+div.gallery-item:hover {
+  
+}
+
+div.gallery-item img {
+  width: 100%;
+  height: auto;
+}
+
+div.gallery-item div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+  div.gallery-item {
+    width: calc(50% - 20px);
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  div.gallery-item {
+    width: calc(100% - 20px);
+  }
+}
+
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+  cursor: pointer;
+}
+
+.tooltiptext {
+  visibility: hidden;
+  width: 130px;
+  background-color: #80808080;
+  color: #ffffff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 100%;
+  left: 65%;
+  margin-left: -65px;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+
+.fixed-size-text {
+      border-right: 5px solid black;
+      padding: 10px;
+      margin: 20px auto;
+      border-radius: 0px;
+      font-size:24px;
+    }
+.text {   margin-right: 50px;
+          margin-left: 50px;
+ 
+}   
+
+img[usemap] {
+  width: 100%;    /* Or any specific width */
+  height: auto;
+  display: block;
+}
+
+
+}
+.title {
+	color: #5C6AC4;
+}
+
+.outline {-webkit-text-stroke-width: 3px;}
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 15px 32px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.button-text {
+  flex: 1;
+  text-align: center;
+  font-family: "Georgia", serif;
+}
+
+.circle {
+  height: 24px;
+  width: 24px;
+ 
+  border-radius: 100%;
+}
+
+
+
+/*start Gods*/
+.circleG_1_1 {background-color: #fffc00;}/*#eabf15 4=ffff00 1=ff0000 1=808080*/
+.circleG_1_2 {background-color: #1800ad;}
+.circleG-Sum_to_6{background: linear-gradient(to bottom right, #fffC00 0%,#fffC00 25% ,#00f999 50%, #1800ad 75%,#1800ad 100%)}
+.circleG_2_1 {background-color: #00f999;}
+/*end Gods*/
+
+/*start Very good bits*/
+.buttonVG1_x {border: 5px solid #000000;background-color: #000000;}/*pruap*/
+.button0_0_A{border: 5px solid #2ecc71;background-color: Black;} /* Black */
+
+.circleVG1_1_1 {background-color: #FF0000;}
+.circleVG1_1_2 {background-color: #00ff00;}
+.circleVG1_1_3 {background-color: #0000ff;}
+.circleVG1_1_4 {background-color: #FF00ff;}
+.circleVG1_1_5 {background-color: #ffff00;}
+.circleVG1_1_6 {background-color: #00ffff;}
+
+.circleVG1_2_1 {background-color: #fff2f2;}/* kindle red*/
+
+/*end very good bits*/
+
+/*start rain*/
+
+.button6_1_x {border: 5px solid #800080;background-color: #aa00ff;}/*pruap*/
+.button6_2_x {border: 5px solid #ff1493;background-color: #ff66c4;}/*pink*/
+.button6_3_x {border: 5px solid #008000;background-color: #7ed957;}/*green*/
+.button6_4_x {border: 5px solid #4682b4;background-color: #38b6ff;}/*cyan*/
+.button6_5_x {border: 5px solid #ff4500;background-color: #ff751f;}/*organe*/
+
+.button6_0_U{border: 5px solid #23c69f;background-color: Gold;} /* Black */
+*/
+.circle6_0SC { background-color: #FFD700; } /* gold */
+
+.circle6_1SC {background-color: #550080;}/*pruap*/
+.circle6_2SC {background-color: #ff009d;}/*pink*/
+.circle6_3SC {background-color: #56bb2a;}/*green*/
+.circle6_4SC {background-color: #0091e6;}/*cyan*/
+.circle6_5SC {background-color: #ff6200;}/*organe*/
+
+
+.circle6_0_KC {background-color: Gold;}
+.circle6_0_QC {background-color: LightSlateGray;}
+
+
+
+/*end rain*/
