@@ -98,7 +98,30 @@ img[usemap] {
 	color: #5C6AC4;
 }
 
+
+
+
 .outline {-webkit-text-stroke-width: 3px;}
+
+.outline6_0_GC {-webkit-text-stroke-color: LightSlateGray ; /* Sets the color of the outline */}
+.outline6_0_KC {-webkit-text-stroke-color: gold; /* Sets the color of the outline */}
+
+
+
+.text-gradient {
+  text-align: center;
+  font-family: Georgia,serif;
+  font-size: 50px;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+}
+
+.text-gradientPeopleRain  {background-image: linear-gradient(90deg, #aa00ff , #ff66c4 25%, #7ed957 50%, #38b6ff 75%, #ff751f 100%);}
+
+
+
 
 .button {
   display: flex;
@@ -168,7 +191,6 @@ img[usemap] {
 
 .circle6_0_KC {background-color: Gold;}
 .circle6_0_QC {background-color: LightSlateGray;}
-
 
 
 
