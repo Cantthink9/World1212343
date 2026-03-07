@@ -157,7 +157,11 @@ img[usemap] {
 
 /*start Very good bits*/
 .buttonVG1_x {border: 5px solid #000000;background-color: #000000;}/*pruap*/
+.buttonVG2_x {border: 5px solid #000000;background-color: #FFFFFF;}/*pruap*/
 .button0_0_A{border: 5px solid #2ecc71;background-color: Black;} /* Black */
+
+.circleVG0_0_1 {background-color: #FFFFFF;}
+.circleVG0_0_2 {background-color: #000000;}
 
 .circleVG1_1_1 {background-color: #FF0000;}
 .circleVG1_1_2 {background-color: #00ff00;}
