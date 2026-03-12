@@ -1,5 +1,3 @@
-          /**/
-
 * {
   box-sizing: border-box;
 }
@@ -7,6 +5,25 @@
 body{padding:50px;
   
 }
+
+
+.algin-img {
+  display: block;}
+  
+.algin-img-right {
+  display: block;
+    margin-left: auto;
+}
+  
+.algin-img-left {
+  display: block;
+    margin-right: auto;
+}  
+
+.algin-img-center {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;}
 
 div.gallery {
   display: flex;
